@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\XYZPlatform.DataAccess\XYZPlatform.DataAccess.csproj" />
+    <ProjectReference Include="..\XYZPlatform.Models\XYZPlatform.Models.csproj" />
+    <ProjectReference Include="..\XYZPlatform.Utilities\XYZPlatform.Utilities.csproj" />
+  </ItemGroup>
+
+</Project>
